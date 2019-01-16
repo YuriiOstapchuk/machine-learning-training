@@ -1,0 +1,10 @@
+[package]
+name = "app"
+version = "0.1.0"
+authors = ["kek"]
+edition = "2018"
+
+[dependencies]
+
+[profile.release]
+opt-level = 3
